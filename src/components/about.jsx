@@ -21,9 +21,11 @@ function About() {
     <Typography variant='subtitle2' fontWeight='bold'>
     Download Resume
     </Typography>
+      <a href="https://drive.google.com/file/d/1qDb_7PxtdyUzmH6NeAGMJJRDSWTPFlSS/view?usp=drive_link" target="_blank" rel="noopener noreferrer" >
     <MotionIconButton whileHover={{scale:1.1}}>
         <InsertDriveFileIcon sx={{color:'#73b7b0'}} />
     </MotionIconButton>
+        </a>
     </Box>
      {/* <Box sx={{display:'flex', alignItems:'center', flexWrap:'wrap', justifyContent:'space-between', p:'4px', width:'100%'}}>
      {projectsArray.map((item, idx)=>(
