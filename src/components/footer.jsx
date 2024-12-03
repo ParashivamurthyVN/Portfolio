@@ -19,7 +19,7 @@ function Footer() {
     <MailOutlineIcon sx={{p:'1px', color:'#73b7b0'}}/>
     </MotionIconButton>
      </a>
-     <a href="https://www.example.com" target="_blank">
+     <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
      <MotionIconButton whileHover={{scale:1.1}} initial={{x:'200px'}} animate={{x:'0px'}} transition={{duration:0.4}}>
         <LinkedInIcon sx={{p:'1px', color:'#73b7b0'}}/>
     </MotionIconButton>
