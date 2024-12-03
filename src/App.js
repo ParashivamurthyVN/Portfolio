@@ -9,8 +9,6 @@ import Projects from './components/projects';
 import Footer from './components/footer';
 
 function App() {
-  var secondary ='#73b7b0';
-  var primary ='#28397b';
   return (
 <BrowserRouter>
 <Box className='app' sx={{ position: 'relative', overflow: 'hidden', height: '100vh', backgroundColor:'#fcfbf7', color:'#28397b' }}>

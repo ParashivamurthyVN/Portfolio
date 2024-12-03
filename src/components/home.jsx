@@ -21,9 +21,8 @@ function Home() {
     <Box sx={{display:'flex', flexDirection:'column',
     position: 'absolute', 
     top: '40%',
-    transform: 'translateY(-50%)', 
     left: '50%',
-    transform: 'translateX(-50%)', 
+   transform: 'translate(-50%, -50%)',
     zIndex: 2}}>
    <Typography variant='h4' fontWeight={600}>I am <span style={{color:'#73b7b0'}}>Parashivamurthy V N </span></Typography>
    </Box>
