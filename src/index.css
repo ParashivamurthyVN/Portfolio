@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* background */
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.square {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+   border-radius: 10px; 
+  /* border-radius: 35px;
+  background: #e0e0e0;
+  box-shadow: inset 11px 11px 20px #bababa,
+              inset -11px -11px 20px #ffffff; */
+  animation: moveUp 0.1s linear infinite, rotate 5s linear infinite;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.active {
+  border-bottom: solid 2.5px #73b7b0;
+  
+}
+
+.contactInput{
+  outline: none;
+  background-color: #fcfbf7;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.contactInput::placeholder {
+  color: #73b7b0; /* Change to your desired color */
+  opacity: 0.9; /* Adjust opacity if needed */
+}
+
